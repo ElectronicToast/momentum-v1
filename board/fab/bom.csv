@@ -1,0 +1,12 @@
+Comment,Designator,Footprint,LCSC
+10k,"R3,R8,R9",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17414
+47uF,C7,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C16780
+100,"R1,R2,R10,R11",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17408
+0.1uF,"C1,C6,C9,C10",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C28233
+220,R12,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17557
+1uF,"C2,C3,C4",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C28323
+PAM8302AAD,U2,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C112137
+SN74LV1T34DBVR,U1,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,C100024
+1.8k,R13,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17398
+10k,RV1,Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical,C719176
+10uF,C5,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C15850

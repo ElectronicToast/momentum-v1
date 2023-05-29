@@ -1,0 +1,30 @@
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Backups
+*-backups/
+
+.local/
+
+# VSCode CMake build outputs and unnecessary files
+build/
+.cortex-debug.peripherals.state.json
+.cortex-debug.registers.state.json
+
