@@ -46,7 +46,7 @@ To modify the code,
 Upload the code as with any RP2040 binary using the USB bootloader (plug in USB while holding down BOOTSEL on the Pico, and drag-and-drop the `.uf2` file into the `RPI-P2` 'flash drive' that appears.
 
 ## Customizing sounds
-A converter utility Python script is provided, which takes a set of WAV files (one `poweron.wav` 'ignition' sound, one 'poweroff.wav' deactivation sound, one 'hum.wav' idle sound, and any number of `clash0.wav` `clash1.wav`... clash sounds and `swing0.wav` `swing1.wav`... swing sounds) and creates a C header file with `uint8_t` arrays and suitable definitions. 
+A converter utility Python script is provided, which takes a set of WAV files (one `poweron.wav` 'ignition' sound, one `poweroff.wav` deactivation sound, one 'hum.wav' idle sound, and any number of `clash0.wav` `clash1.wav`... clash sounds and `swing0.wav` `swing1.wav`... swing sounds) and creates a C header file with `uint8_t` arrays and suitable definitions. 
 
 If you would like to use your own sounds, convert them to WAV, run the Python script on them, and include the generated `.h` file in `speaker.c`.
 
